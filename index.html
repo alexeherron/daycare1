@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
             <ul>
                 <li><a href="#home">HOME</a></li>
@@ -57,15 +57,35 @@
     </section>
     <section id="inquiry" class="container">
         <h2>We have openings!</h2>
-        <p>If you're interested in joining our program, please send us an inquiry below.</p>
-        <form action="" method="post"></form>
+        <p>Please send us an inquiry below.</p>
+        <section id="contact">
+            <h2>Get in touch</h2>
+            <form method="post" action="">
+                <div class="fields">
+                    <div class="sidebyside">
+                        <div class="field half">
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                        </div>
+                        <div class="field half">
+                            <input type="email" name="email" id="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send" class="primary" /></li>
+                </ul>
+            </form>
+        </section>
     </section>
     <footer class="container">
         <section>
-            <h4>Meadowlark Daycare</h4>
+            <h4><a href="#home">Meadowlark Daycare</a></h4>
             <h6><i class="fa-solid fa-phone"></i>(555)555-1234</h6>
             <h6>Copyright &copy; 2022 Meadowlark Schoolhouse - All Rights Reserved.</h6>
-            <h6>Powered by Herron Creations</h6>
+            <h6>Powered by <a href="https://alexherron.netlify.app" target="_blank">Herron Creations</a></h6>
         </section>
         <img src="default.png" alt="Meadowlark logo">
     </footer>
