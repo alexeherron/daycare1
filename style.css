@@ -157,13 +157,17 @@ header aside{
 #inquiry h2{
     padding: 2%;
 }
+#contact h2{
+    margin-top: 20px;
+}
 #contact textarea{
     width: 70vw;
     max-width: 1200px;
 }
 #contact input{
     position: relative;
-    width: 100%;
+    width: 34vw;
+    line-height: 40px;
 }
 form div{
     padding: 1vh 0;
@@ -214,6 +218,7 @@ textarea {
     padding: 0 1em;
     text-decoration: none;
     width: 100%;
+    line-height: 45px;
 }
 
     input[type="text"]:invalid,
